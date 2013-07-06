@@ -90,19 +90,21 @@
     }
 
     .carousel-caption {
-      background-color: transparent;
+      background-color: rgba(170, 170, 170, 0.3);
       position: static;
-      max-width: 550px;
+      max-width: 350px;
       padding: 0 20px;
-      margin-top: 200px;
-    }
+      margin-top: -200px;
+    
+}
     .carousel-caption h1,
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
       color: #000;
-      text-shadow: 0 1px 1px rgba(228, 228, 228, 0.4);
-    }
+      text-shadow: 0 1px 1px rgba(255, 255, 255, 0.84);
+    
+}
     .carousel-caption .btn {
       margin-top: 10px;
     }
@@ -240,4 +242,23 @@
     }
 
 footer {
+    margin-top: 200px;
+}
+
+h1 {}
+
+.container.marketing {
+    margin-top: 100px;
+}
+.carousel-caption {}
+
+p {
+}
+
+#subs {
+    font-size: 20px;
+}
+
+#team {
+    margin-top: -500px;
 }
